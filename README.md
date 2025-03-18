@@ -6,18 +6,6 @@
    
 </p>
 
-<div align="center">
-
-[![License][shield-repo-license]][repo-license]
-[![GitHub Workflow Status][shield-repo-workflow]][repo-actions]
-[![Crowdin][shield-crowdin-status]][crowdin-project]
-[![Downloads][shield-repo-releases]][repo-releases]
-[![Version][shield-repo-latest]][repo-latest]
-[![Discord][shield-discord-server]][discord-invite]
-[![lol][shield-tenor-meme]][tenor-gif]
-
-</div>
-
 ----
 
 RoStrap is a third-party replacement for the standard Roblox bootstrapper, providing additional useful features and improvements.
@@ -28,7 +16,7 @@ RoStrap is only supported for PCs running Windows.
 
 **Q: Is this malware?**
 
-**A:** No. The source code here is viewable to all, and it'd be impossible for us to slip anything malicious into the downloads without anyone noticing. Just be sure you're downloading it from an official source. The only official source are this GitHub repository.
+**A:** No. The source code here is viewable to all, and it'd be impossible for us to slip anything malicious into the downloads without anyone noticing. Just be sure you're downloading it from an official source. The only official source are this GitHub repository. RoStrap is open-source, and all changes can be reviewed by the community. We encourage users to verify the code themselves before installing. Transparency is a core part of our project.
 
 **Q: Can using this get me banned?**
 
@@ -37,19 +25,18 @@ RoStrap is only supported for PCs running Windows.
 ## Features
 
 - Hassle-free Discord Rich Presence to let your friends know what you're playing at a glance
-- Simple support for modding of content files for customizability (death sound, mouse cursor, etc)
 - See where your server is geographically located (courtesy of [ipinfo.io](https://ipinfo.io))
 - Ability to configure graphics fidelity and UI experience
+- Custom Asset Modding – Change sounds, cursor styles, and other game assets for a more personalized experience.
 
 ## Installing
-Download the [latest release of RoStrap](https://github.com/ASDFFounder2015/RoStrap/releases/latest), and run it. Configure your preferences if needed, and install. That's about it!
 
+1. [Download the latest release of RoStrap](https://github.com/ASDFFounder2015/RoStrap/releases/latest) and run the installer.
+2. Configure your preferences if needed, then complete the installation.
+3. [Install the .NET 6 Desktop Runtime](https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win11-x64&apphost_version=6.0.16&gui=true) if you don’t already have it installed. If prompted, install it before continuing with RoStrap.
+4. If Windows Smartscreen shows a popup when running RoStrap for the first time, click **"More info"** → **"Run anyway"**. This happens because the program is new, not because it's detected as malicious.
+5. Once installed, RoStrap will be added to your **Start Menu**, where you can access the menu and reconfigure your preferences if needed.
 
-You will also need the [.NET 6 Desktop Runtime](https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=win11-x64&apphost_version=6.0.16&gui=true). If you don't already have it installed, you'll be prompted to install it anyway. Be sure to install RoStrap after you've installed this.
-
-It's not unlikely that Windows Smartscreen will show a popup when you run Bloxstrap for the first time. This happens because it's an unknown program, not because it's actually detected as being malicious. To dismiss it, just click on "More info" and then "Run anyway".
-
-Once installed, RoStrap is added to your Start Menu, where you can access the menu and reconfigure your preferences if needed.
 
 
 
